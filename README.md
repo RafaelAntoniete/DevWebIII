@@ -11,66 +11,54 @@ https://allmoviesfatec.netlify.app
 O site "All Movies" foi idealizado e implementado para proporcionar uma experiência de descoberta cinematográfica. A ideia é fornecer dados sobre uma obra que faça com que os entusiastas descubram alguns detalhes sobre o filme para que desperte a curiosidade de buscar assisti-lo.
 
 ## Layout
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+### HomePage
+![Web 1](https://github.com/RafaelAntoniete/Assets/blob/main/HomePage.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+### Teste de pesquisa
+![Web 2](https://github.com/RafaelAntoniete/Assets/blob/main/SearchTest.png)
+
+### Pesquisa Funcional
+![Web 3](https://github.com/RafaelAntoniete/Assets/blob/main/FunctionalSearch.png)
+
+### Pagina de detalhes
+![Web 4](https://github.com/RafaelAntoniete/Assets/blob/main/DetailsPage.png)
+
+### Detalhes do filme
+![Web 5](https://github.com/RafaelAntoniete/Assets/blob/main/MovieDetails.png)
 
 # Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
 ## Front end
-- HTML / CSS / JS / TypeScript
+- HTML / CSS / JS 
 - ReactJS
-- React Native
-- Apex Charts
-- Expo
+- Vite
+
+## Back end
+- API - tmdb
+  
 ## Implantação em produção
-- Back end: Heroku
 - Front end web: Netlify
-- Banco de dados: Postgresql
 
 # Como executar o projeto
-
-## Back end
-Pré-requisitos: Java 11
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
 
 ## Front end web
 Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/RafaelAntoniete/DevWebIII
 
 # entrar na pasta do projeto front end web
-cd front-web
+cd AllMovies
 
 # instalar dependências
-yarn install
+npm install
 
 # executar o projeto
-yarn start
+npm run dev
 ```
 
 # Autor
 
-Wellington Mazoni de Andrade
-
-https://www.linkedin.com/in/wmazoni
+Rafael de Sousa Antoniete
 
