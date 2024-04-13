@@ -42,7 +42,7 @@ O site "All Movies" foi idealizado e implementado para proporcionar uma experiê
 # Como executar o projeto
 
 ## Front end web
-Pré-requisitos: npm / yarn
+Pré-requisitos: npm
 
 ```bash
 # clonar repositório
